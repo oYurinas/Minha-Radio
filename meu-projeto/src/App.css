@@ -1,0 +1,36 @@
+/* App.css */
+
+/* Centraliza o conteúdo da aplicação e define cores gerais */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a202c; /* Fundo escuro */
+  color: #ffffff; /* Texto branco */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Estilo dos cards */
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Efeito de zoom */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
+}
+
+/* Botão personalizado */
+.button {
+  background-color: #3182ce; /* Azul */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #63b3ed; /* Azul mais claro */
+}
